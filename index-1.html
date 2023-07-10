@@ -8,154 +8,155 @@
     <link rel="stylesheet" href="assets/fontawesome-free-6.4.0-web/css/all.min.css">
 </head>
 <body>
-    <header style="background-color: black;">
-        <div class="container d-flex justify-content-between" style="background-color: black;" >
-            <div>
-              <ul class="nav nav-underline">
-                <button type="button" class="btn btn-danger "><i class="fa-solid fa-bars"></i></button>
-                <ul class="nav nav-underline">
-                    <button type="button" class="btn btn-danger "> <a href="index.html"><i class="fa-solid fa-house"></i></a></button>
-          
-           <div style="width: 370px;">
-             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-              </form>
-            </div>
-            <div>
-                <a class="btn btn-danger" href="index-1.html"><i class="fa-solid fa-poo"></i></a>
-                <!-- Button trigger modal -->
-    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
-         Log in    <i class="fa-solid fa-user"></i>
-      </button>
+  <header style="background-color: black;">
+    <div class="container d-flex justify-content-between" style="background-color: black;" >
+        <div>
+          <ul class="nav nav-underline">
+            <button type="button" class="btn btn-danger "><i class="fa-solid fa-bars"></i></button>
+                <a class="btn btn-danger" href="index.html">Home <i class="fa-solid fa-house"></i></a>
+        </div>
       
-      <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item w-50" role="presentation">
-        <button class="nav-link active w-100" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Log in</button>
-      </li>
-      <li class="nav-item w-50" role="presentation">
-        <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Sign up</button>
-      </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Đăng nhập</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       <div style="width: 370px;">
+         <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+        <div>
+            <a class="btn btn-danger" href="index-1.html"><i class="fa-solid fa-poo"></i></a>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+     Log in    <i class="fa-solid fa-user"></i>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item w-50" role="presentation">
+    <button class="nav-link active w-100" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Log in</button>
+  </li>
+  <li class="nav-item w-50" role="presentation">
+    <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Sign up</button>
+  </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Đăng nhập</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Type your email">
                       </div>
-                      <div class="modal-body">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Type your email">
-                          </div>
-                          <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="">
-                          </div>
-                          You don't have account? <a href="">Sign up</a>
+                      <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="">
                       </div>
-                </div>
-                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Đăng kí</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      You don't have account? <a href="">Sign up</a>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Đăng kí</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                     <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
                       </div>
-                      <div class="modal-body">
-                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                          </div>
-                          <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="">
-                          </div>
-                          <div class="mb-3">
-                            <label for="password" class="form-label">Re-enter Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="">
-                          </div>
-                          Gender
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
-                              Male
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
-                              Female
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
-                              Other
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                              Tôi đã đọc và đồng ý với các <a href=""> Điều khoản</a>
+                      <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="">
+                      </div>
+                      <div class="mb-3">
+                        <label for="password" class="form-label">Re-enter Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="">
+                      </div>
+                      Gender
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Male
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Female
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Other
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Tôi đã đọc và đồng ý với các <a href=""> Điều khoản</a>
 
-                            </label>
-                          </div>
+                        </label>
                       </div>
-                </div>
+                  </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
-              <button type="button" class="btn btn-primary">Đăng nhập</button>
-            </div>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+          <button type="button" class="btn btn-primary">Đăng nhập</button>
         </div>
       </div>
-            </div>
+    </div>
+  </div>
         </div>
-    </header>
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Donate là gì?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                Donate là một từ tiếng anh có nghĩa là ủng hộ. Một người có thể quyên góp một số tiền nho nhỏ thể hiện tấm lòng của mình đến người được nhận. Người nhận có thể là một cá nhân, một tập thể hoặc một tổ chức. Ví dụ đơn giản là bạn bỏ vào 50,000 VND vào thùng từ thiện "Quỹ ủng hộ người nghèo" ở khu phố nơi bạn đang sống cúng được gọi là donate.Trong lĩnh vực streamer, Donate cũng có ý nghĩa tương tự như vậy. Điểm khác biệt lớn nhất là nó được thực hiện trên các trang mạng xã hội và online trực tuyến bởi các streamer trong các buổi livestream của mình. Những người yêu thích streamer có thể trực tiếp gửi một số tiền kèm những câu hỏi hoặc những lời muốn nói với streamer đang livestream.
-            </div>
-          </div>
+    </div>
+</header>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Donate là gì?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            Donate là một từ tiếng anh có nghĩa là ủng hộ. Một người có thể quyên góp một số tiền nho nhỏ thể hiện tấm lòng của mình đến người được nhận. Người nhận có thể là một cá nhân, một tập thể hoặc một tổ chức. Ví dụ đơn giản là bạn bỏ vào 50,000 VND vào thùng từ thiện "Quỹ ủng hộ người nghèo" ở khu phố nơi bạn đang sống cúng được gọi là donate.Trong lĩnh vực streamer, Donate cũng có ý nghĩa tương tự như vậy. Điểm khác biệt lớn nhất là nó được thực hiện trên các trang mạng xã hội và online trực tuyến bởi các streamer trong các buổi livestream của mình. Những người yêu thích streamer có thể trực tiếp gửi một số tiền kèm những câu hỏi hoặc những lời muốn nói với streamer đang livestream.
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Ý Nghĩa Của Việc Donate Là Gì Đối Với Các Streamer?
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                Việc donate cho các streamer ngày càng phổ biến. Như chúng ta được biết, donate là quyên góp tiền cho những người nhận có thể trang trải cuộc sống nhưng đối với việc donate streamer còn là cách ủng hộ các streamer ra mắt nhiều video chất lượng và nội dung sáng tạo, hấp dẫn. Trong những buổi livestream trực tuyến thì việc donate còn giúp bạn có thể tương tác với các streamer nhiều hơn qua các câu hỏi hoặc những lời bình luận sẽ hiện lên buổi livestream.Đây cũng là cách biểu hiện sự yêu thích và ủng hộ nhiệt tình cho những streamer và bày tỏ cảm xúc với những câu nói thú vị hay những câu chuyện của streamer khiến bạn thân cảm thấy thú vị. Việc donate streamer hoàn toàn xuất phát từ việc tự nguyện của người xem, không phải là streamer bắt buộc người xem của mình làm vậy. Đối với các streamer đây là cách kiếm tiền chân chính và là sự công nhận của người xem đến những sản phẩm live stream có nội dung hấp dẫn, lôi cuốn. 
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Ý Nghĩa Của Việc Donate Là Gì Đối Với Các Streamer?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            Việc donate cho các streamer ngày càng phổ biến. Như chúng ta được biết, donate là quyên góp tiền cho những người nhận có thể trang trải cuộc sống nhưng đối với việc donate streamer còn là cách ủng hộ các streamer ra mắt nhiều video chất lượng và nội dung sáng tạo, hấp dẫn. Trong những buổi livestream trực tuyến thì việc donate còn giúp bạn có thể tương tác với các streamer nhiều hơn qua các câu hỏi hoặc những lời bình luận sẽ hiện lên buổi livestream.Đây cũng là cách biểu hiện sự yêu thích và ủng hộ nhiệt tình cho những streamer và bày tỏ cảm xúc với những câu nói thú vị hay những câu chuyện của streamer khiến bạn thân cảm thấy thú vị. Việc donate streamer hoàn toàn xuất phát từ việc tự nguyện của người xem, không phải là streamer bắt buộc người xem của mình làm vậy. Đối với các streamer đây là cách kiếm tiền chân chính và là sự công nhận của người xem đến những sản phẩm live stream có nội dung hấp dẫn, lôi cuốn. 
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Cách Donate Bằng Thẻ Điện Thoại
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Donate Stream hiện nay có cách donate bằng thẻ cào được coi là hình thức dễ dàng nhất. Bạn chỉ cần có 1 thẻ điện thoại còn đầy đủ số Seri và mã nạp thẻ sau đó truy cập vào link Donate mà bạn muốn donate cho người nào đó. Hiểu được Donate Stream là gì thực sự sẽ là điều khiến bạn muốn làm Streamer ngay lập tức bởi cách kiếm tiền online rất dễ dàng.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Cách Donate Bằng Thẻ Điện Thoại
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Donate Stream hiện nay có cách donate bằng thẻ cào được coi là hình thức dễ dàng nhất. Bạn chỉ cần có 1 thẻ điện thoại còn đầy đủ số Seri và mã nạp thẻ sau đó truy cập vào link Donate mà bạn muốn donate cho người nào đó. Hiểu được Donate Stream là gì thực sự sẽ là điều khiến bạn muốn làm Streamer ngay lập tức bởi cách kiếm tiền online rất dễ dàng.
 
 Tiếp theo sau khi đã truy cập vào link donate xong bạn chọn đúng loại thẻ mà bạn hiện có, và điền phần mã thẻ , số seri thẻ vào ô được yêu cầu. Sau khi bạn chọn được loại thẻ, chỉ cần bạn ấn OK và hoàn thành những thủ tục Donate dành cho Streamer mà bạn yêu thích.
-            </div>
-          </div>
         </div>
       </div>
+    </div>
+  </div>
+    
 </body>
     <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
 </html>
