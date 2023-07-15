@@ -54,10 +54,10 @@
      <!-- cat -->
      
   <br>
-<div class="card container" style="border: black; outline: solid; background: lightyellow;">
+<div class="card container" style="border: black; outline: solid; background: lightyellow;" id="phan-1">
   <br>
-  <u><h2 >About me:</h2></u>
-  <h3 id="phan-1">
+  <u ><h2 >About me:</h2></u>
+  <h3 >
     <ul>
     <li >Name: Ngô Khang</li>
     <li>Ngày sinh:16/11/2011</li>
@@ -73,7 +73,7 @@
   </ul>
 </h3>
 </div>
-     <br><br><br><br><br><br><br>
+     <br>
 <div class="card container" style="background: coral;">
   <br>
   <u><h2 id="phan-2" >Sở Thích:</h2></u>
@@ -99,23 +99,23 @@
     </ol>
   </h3>
 </div>
-<br><br><br><br><br><br>
+<br><br>
 <div class="container" style=" position: relative; min-height: 100vh; background:#ddd;">
   <h2 id="phan-3" style="font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal;padding: 15px;text-align: center;text-transform: capitalize;">Albums</h2><br>
   <div class="image-container">
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/rising_star.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/piano_kevin.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/play_kevin.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/zin_fat.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/fly_plane.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/when_kevin_old.jpg" alt=""></div>
       <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/chụp hình.jpg" alt=""></div>
-      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/kevin đánh đàn.jpg" alt=""></div>
-      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/đi chơi.jpg" alt=""></div>
-      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/nghiên cứu.jpg" alt=""></div>
-      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/đi máy bay.jpg" alt=""></div>
-      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/ảnh kevin hồi nhỏ.jpg" alt=""></div>
       <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/chụp hình.jpg" alt=""></div>
-      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/chụp hình.jpg" alt=""></div>
-      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/chụp hình.jpg" alt=""></div>  
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/" alt=""></div>  
     </div>
       <div class="popup-image">
         <span>&times</span>
-        <img style="width: 600px; height: 600px;" src="pictures/chụp hình.jpg" alt="">
+        <img style="width: 800px; height: 450px;" src="pictures/rising_star.jpg" alt="">
       </div>
 
 
@@ -127,6 +127,7 @@
 
 <!-- hỏi đáp -->
   <div  style="border: black; outline: solid;" class="card container">
+    <br>
   <h2 id="phan-4">Hỏi đáp</h2><br>
   <div class="accordion" id="accordionExample">
     <div class="accordion-item">
@@ -165,30 +166,53 @@
         </div>
       </div>
     </div>
-  </div>  
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+         <h4>Ước mơ của bạn là gi?</h4>
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h4>Uớc mơ của mình là làm coder</h4>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+         <h4>Bạn có thể chỉ mình cách làm một trang web như bạn được không?</h4>
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+         <h4>Được chứ,bạn hãy nhập vào form đăng kí để liên hệ với tôi nhé</h4>
+        </div>
+      </div>
+    </div>
+
+
+   </div>  
   </div>
-  <br><br><br><br>
+  <br>
   <div class=" card container">
     <br>
-    <h2>Liên hệ:</h2>
-  <h4>Bạn có thể nhập rồi gửi đi cho tôi, tôi sẽ kết bạn với bạn</h4>
+    <u><h2>Liên hệ:</h2></u>
+    <br>
+  <h5>Muốn biết thêm về tôi, bạn có thể liên hệ với tôi qua form</h5>
   <div id="phan-5" class="mb-3">
     <label for="exampleFormControlInput1" class="form-label"><h4>Tên</h4></label>
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nhập tên">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label"><h4>Tuổi</h4></label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
   </div>
   <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label"><h4>Số điện thoại</h4></label>
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
   </div>
   <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label"><h4>Điều bạn muốn nói</h4></label>
+    <label for="exampleFormControlTextarea1" class="form-label"><h4>Tôi có thể giúp gì cho bạn?</h4></label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
   </div>
-  <button class="btn btn-primary">Gửi đi</button>
+  <a class="btn btn-primary" style="width: 100px;" href="">Gửi đi</a>
   </div>
   <br>
   <br>
@@ -204,7 +228,7 @@
   document.querySelectorAll('.image-container img') .forEach(image =>{
    image.onclick =() => {
     document.querySelector('.popup-image').style.display='block';
-    document.querySelector('.popup-image img').src = imagegetattribute('src')
+    document.querySelector('.popup-image img').src = image.src
    }
   })
 
