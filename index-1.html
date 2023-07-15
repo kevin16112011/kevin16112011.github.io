@@ -7,16 +7,37 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/fontawesome-free-6.4.0-web/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index-1.css">
+    <title>Dancing Cat</title>
+    <style>
+      .dancing-cat {
+        position: relative;
+        animation: dance 2s infinite;
+        transform-origin: center bottom;
+      }
+  
+      @keyframes dance {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(-30deg); }
+        50% { transform: rotate(0deg); }
+        75% { transform: rotate(30deg); }
+        100% { transform: rotate(0deg); }
+      }
+    </style>
 </head>
+
+
 <body>
   <header style="background-color: black;">
     <div class="container d-flex justify-content-between">  
            <div class="container">
             <a class="btn btn-danger" href="#phan-1">About me</a>
-            <a class="btn btn-danger" href="">Sở thích</a>
-            <a class="btn btn-danger" href="">Albums</a>
+            <a class="btn btn-danger" href="#phan-2">Sở thích</a>
+            <a class="btn btn-danger" href="#phan-3">Albums</a>
+            <a class="btn btn-danger" href="#phan-4">Hỏi đáp</a>
+            <a class="btn btn-danger" href="#phan-5">Liên hệ</a>
            </div>
-    
+           <button class="btn btn-danger " > Guest</button>
   </header>
     <main >
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -30,24 +51,18 @@
         </div>
       </div>
      </main>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-<div class="card container" style="border: black; outline: solid;">
+     <!-- cat -->
+     
+  <br>
+<div class="card container" style="border: black; outline: solid; background: lightyellow;">
+  <br>
   <u><h2 >About me:</h2></u>
-  <h3>
+  <h3 id="phan-1">
     <ul>
-    <li>Name: Ngô Khang</li>
+    <li >Name: Ngô Khang</li>
     <li>Ngày sinh:16/11/2011</li>
     <li>Tuổi:12</li>
-    <li id="phan-1">Nơi sống:Nha Trang</li>
+    <li >Nơi sống:Nha Trang</li>
     <li>Học trường: <b>THCS Thái Nguyên</b></li>
     <li>Điện thoại: 0913013088</li>
     <li>Giải Thưởng đã đạt được: <br>
@@ -55,19 +70,13 @@
       <b>Đi thi bóng bàn ở Đà Nẵng và Lào cai</b><br>
       <b>...</b>
     </li>
-    <li>Ước mơ: Làm luật sư</li>
   </ul>
 </h3>
 </div>
-<div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
-<div class="card container" style="border: black; outline: solid;">
-  <u><h2 >Sở Thích:</h2></u>
+     <br><br><br><br><br><br><br>
+<div class="card container" style="background: coral;">
+  <br>
+  <u><h2 id="phan-2" >Sở Thích:</h2></u>
   <h3>
     <ol style="list-style-type:lower-alpha">
       <li>Bóng bàn: <br>
@@ -76,12 +85,133 @@
         Bóng bàn là môn thể thao đòi hỏi sự kết hợp giữa cơ thể và tâm trí. Khi chơi bóng bàn, người chơi phải tập trung, kích thích sự tỉnh táo và tinh thần tạo ra chiến lược để chiến thắng cuộc chơi. Và theo đó, đây cũng là môn thể thao thử thách vượt qua bản thân trong mỗi cuộc chơi.
       </li>
       <li>
-        Đàn
+        Đàn <br>
+        <div><b>Tôi chơi môm này hằng ngày</b></div>
+        <div ><b>Giải thích</b><br>
+          Piano đem lại những giá trị gì cho cuộc sống
+          Piano thể hiện tâm hồn của con người, cảm xúc của con người được âm nhạc truyền tải. Cho dù là vui hay buồn, cho là hạnh phúc hay khổ đau âm nhạc đều có thể truyền tải được. Học Piano còn thể hiện được tính cách của mỗi cá nhân thông qua sở thích hay gu âm nhạc của họ.
+        </div>
+      </li>
+      <li>Bơi <br>
+        <b>Giải thích:</b><br>
+        Lợi ích của bơi lội: Tăng cường sức mạnh,Bơi lội có thể tăng cường trí não,Lợi ích bơi lội: Nâng cao chất lượng giấc ngủ,Tốt cho sức khỏe tinh thần,...
       </li>
     </ol>
   </h3>
 </div>
+<br><br><br><br><br><br>
+<div class="container" style=" position: relative; min-height: 100vh; background:#ddd;">
+  <h2 id="phan-3" style="font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal;padding: 15px;text-align: center;text-transform: capitalize;">Albums</h2><br>
+  <div class="image-container">
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/chụp hình.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/kevin đánh đàn.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/đi chơi.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/nghiên cứu.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/đi máy bay.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/ảnh kevin hồi nhỏ.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/chụp hình.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/chụp hình.jpg" alt=""></div>
+      <div class="image"><img  style="width: 330px; height: 300px;" src="pictures/chụp hình.jpg" alt=""></div>  
+    </div>
+      <div class="popup-image">
+        <span>&times</span>
+        <img style="width: 600px; height: 600px;" src="pictures/chụp hình.jpg" alt="">
+      </div>
+
+
+
+
+</div>
+  
+
+
+<!-- hỏi đáp -->
+  <div  style="border: black; outline: solid;" class="card container">
+  <h2 id="phan-4">Hỏi đáp</h2><br>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h4>Hey kevin, bạn có bạn gái chưa</h4>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+         <h4>Tớ vẫn độc thân nhé ,yêu đương gì tầm này.</h4>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         <h4>Bạn có chơi liên quân không? Bạn thích nhất là con gì?</h4>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h4>Mình có chơi, mình thích nhất là capheny, vì tướng đó quá mạnh</h4>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         <h4>Cho mình làm quen nhé.</h4>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h4>Ok bạn, zalo của tớ là : <b class="text-primary">84+ 913013088</b></h4>
+        </div>
+      </div>
+    </div>
+  </div>  
+  </div>
+  <br><br><br><br>
+  <div class=" card container">
+    <br>
+    <h2>Liên hệ:</h2>
+  <h4>Bạn có thể nhập rồi gửi đi cho tôi, tôi sẽ kết bạn với bạn</h4>
+  <div id="phan-5" class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label"><h4>Tên</h4></label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nhập tên">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label"><h4>Tuổi</h4></label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label"><h4>Số điện thoại</h4></label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label"><h4>Điều bạn muốn nói</h4></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+  </div>
+  <button class="btn btn-primary">Gửi đi</button>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer  style="text-align: center;background-color: dimgrey;">
+    &copy; 2023 khang page
+  </footer>
+
 </body>
+<script>
+
+  document.querySelectorAll('.image-container img') .forEach(image =>{
+   image.onclick =() => {
+    document.querySelector('.popup-image').style.display='block';
+    document.querySelector('.popup-image img').src = imagegetattribute('src')
+   }
+  })
+
+  document.querySelector('.popup-image span').onclick =( ) =>{
+    document.querySelector('.popup-image').style.display='none';
+  }
+</script>
 <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
 </html>
 
