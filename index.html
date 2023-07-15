@@ -3,77 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web nói về kevin</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/fontawesome-free-6.4.0-web/css/all.min.css">
-    <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card container" style="border: black; outline:solid;padding: 12px; margin: 300px;">
-        <ul class="nav nav-tabs " id="myTab" role="tablist">
-            <li class="nav-item w-50" role="presentation">
-              <button class="nav-link active w-100" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Log in</button>
-            </li>
-            <li class="nav-item w-50" role="presentation">
-              <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Sign up</button>
-            </li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Type your email">
-                  </div>
-                  <div class="mb-3">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="">
-                  </div>
-                  Gender
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Male
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Female
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Other
-                    </label>
-                  </div>
-                  <a class="btn btn-primary" href="index-1.html">Log in</a>
-              </div>
-          </div>
+  <header style="background-color: black;">
+    <div class="container d-flex justify-content-between">  
+           <div class="container">
+            <a class="btn btn-danger" href="#phan-1">About me</a>
+            <a class="btn btn-danger" href="">Sở thích</a>
+            <a class="btn btn-danger" href="">Albums</a>
+           </div>
+           <div>
+               <div>
+            <!-- Button trigger modal -->
+    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+           <i class="fa-solid fa-user"></i>
+     </button>
+     
+     <!-- Modal -->
+     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+       <div class="modal-dialog">
+         <div class="modal-content">
+           <ul class="nav nav-tabs" id="myTab" role="tablist">
+     <li class="nav-item w-50" role="presentation">
+       <button class="nav-link active w-100" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Log in</button>
+     </li>
+     <li class="nav-item w-50" role="presentation">
+       <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Sign up</button>
+     </li>
+           </ul>
+           <div class="tab-content" id="myTabContent">
+               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                   <div class="modal-header">
+                       <h1 class="modal-title fs-5" id="staticBackdropLabel">Đăng nhập</h1>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                       <div class="mb-3">
+                           <label for="exampleFormControlInput1" class="form-label">Email</label>
+                           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Type your email">
+                         </div>
+                         <div class="mb-3">
+                           <label for="password" class="form-label">Password</label>
+                           <input type="password" class="form-control" id="password" placeholder="">
+                         </div>
+                         You don't have account? <a href="">Sign up</a>
+                     </div>
+               </div>
+               <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                   <div class="modal-header">
+                       <h1 class="modal-title fs-5" id="staticBackdropLabel">Đăng kí</h1>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="mb-3">
+                           <label for="exampleFormControlInput1" class="form-label">Email</label>
+                           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                         </div>
+                         <div class="mb-3">
+                           <label for="password" class="form-label">Password</label>
+                           <input type="password" class="form-control" id="password" placeholder="">
+                         </div>
+                         <div class="mb-3">
+                           <label for="password" class="form-label">Re-enter Password</label>
+                           <input type="password" class="form-control" id="password" placeholder="">
+                         </div>
+                         Gender
+                         <div class="form-check">
+                           <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                           <label class="form-check-label" for="flexRadioDefault1">
+                             Male
+                           </label>
+                         </div>
+                         <div class="form-check">
+                           <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                           <label class="form-check-label" for="flexRadioDefault1">
+                             Female
+                           </label>
+                         </div>
+                         <div class="form-check">
+                           <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                           <label class="form-check-label" for="flexRadioDefault1">
+                             Other
+                           </label>
+                         </div>
+                         <div class="form-check">
+                           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                           <label class="form-check-label" for="flexCheckDefault">
+                             Tôi đã đọc và đồng ý với các <a href=""> Điều khoản</a>
 
-    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                           </label>
+                         </div>
+                     </div>
+               </div>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            <a class="btn btn-primary" href="index-1.html">Đăng nhập</a>
+           </div>
+         </div>
+       </div>
+     </div>
+           </div>
+       </div>
+           </div>
+    </div>
+  </header>
+    <main >
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pictures/image.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="">
+          <div class="carousel-item">
+            <img src="pictures/taoanhdep_cover_marketing_61766.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              Tôi đã đọc và đồng ý với các <a href=""> Điều khoản</a><br>
-              <a class="btn btn-primary" href="index-1.html">Đăng kí</a>
-            </label>
-          </div>
+        </div>
       </div>
+     </main>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+<div class="card container" style="border: black; outline: solid;">
+  <u><h2 >About me:</h2></u>
+  <h3>
+    <ul>
+    <li>ᅠ</li>
+    <li>ᅠ</li>
+    <li>ᅠ</li>
+    <li id="phan-1">HÃY ĐĂNG NHẬP ĐỂ XEMᅠ</li>
+    <li>ᅠ MUỐN XEM THÌ PHẢI ĐĂNG NHẬP</b></li>
+    <li>ᅠ</li>
+    <li>ᅠ <br>
+      <b>ᅠ</b><br>
+      <b>ᅠ</b><br>
+      <b>ᅠ</b>
+    </li>
+    <li></li>
+  </ul>
+</h3>
 </div>
-    </div>
-    
-</div>
+<div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+     <div class="container" style="background-color: gainsboro;"> ᅠ</div>
+<div class="card container" style="border: black; outline: solid;">
+  <u><h2 >Sở Thích:</h2></u>
+  <h3>
+    <ol style="list-style-type:lower-alpha">
+      <li>ᅠ <br>
+        <b>ᅠ</b> <br>
+        <b>ᅠ</b><br>
+        ᅠ
+      </li>
+      <li>
 
-    </div>
+      </li>
+    </ol>
+  </h3>
+</div>
 </body>
+<script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
 </html>
+
